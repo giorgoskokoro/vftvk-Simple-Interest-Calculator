@@ -11,9 +11,9 @@ function compute()
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
     
-    document.getElementById("result").innerText = "If you deposit "
+    document.getElementById("result").innerText = "\nIf you deposit "
     +principal+",\nat an interest rate of "+rate+"%.\nYou will receive an amount of "
-    +interest+",\nin the year "+year+"\n"
+    +interest+",\nin the year "+year+"\n\n"
 }
 
 function updateRate(){
