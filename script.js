@@ -13,7 +13,7 @@ function compute()
     
     document.getElementById("result").innerText = "\nIf you deposit "
     +principal+",\nat an interest rate of "+rate+"%.\nYou will receive an amount of "
-    +interest+",\nin the year "+year+"\n\n"
+    +interest+",\nin the year "+year+"\n"
 }
 
 function updateRate(){
